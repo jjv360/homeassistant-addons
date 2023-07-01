@@ -1,6 +1,6 @@
 name: "Hubble Cloudlink"
 description: "Pull data from Hubble Cloudlink (Riot Systems)."
-version: "1.0.15"
+version: "1.0.16"
 slug: "hubble_cloudlink"
 init: false
 arch:

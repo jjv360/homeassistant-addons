@@ -225,8 +225,8 @@ async function notifyAttributeUpdate(attribute, value) {
         console.log(`Attribute update: ${attribute} (${dataKeys.find(k => k.name == attribute)?.label || '?'}) = ${value} ${dataKey?.units || ''}    ${entityMap[attribute] || ''}`)
 
     // Check if we have a HomeAssistant entity for this attribute
-    if (attribute == 'Sys_SOC')
-        updateNumberHelper(options.entity_battery_percent, value)
+    if (entityMap[attribute])
+        updateNumberHelper(entityMap[attribute], value)
 
 }
 
