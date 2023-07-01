@@ -12,5 +12,5 @@ Click the "Add Repository" button above, or go to Settings > Add-ons > Add-on St
 
 ## Available add-ons
 
-- [SunSynk Data Logger](./addons/sunsynk-data-logger) : Pulls inverter state from SunSynk's cloud into helper entities (Battery %, wattage for battery, load, solar, grid, etc.)
-- [Hubble Cloudlink](./addons/hubble-cloudlink) : Pulls inverter state from Hubble's cloud into helper entities (Battery %, wattage for battery, load, solar, grid, etc.)
+- [SunSynk Data Logger](./addon-sunsynk-data-logger) : Pulls inverter state from SunSynk's cloud into helper entities (Battery %, wattage for battery, load, solar, grid, etc.)
+- [Hubble Cloudlink](./addon-hubble-cloudlink) : Pulls inverter state from Hubble's cloud into helper entities (Battery %, wattage for battery, load, solar, grid, etc.)
