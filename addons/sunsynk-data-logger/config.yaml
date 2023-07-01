@@ -1,0 +1,34 @@
+name: "SunSynk Data Logger"
+description: "Records data from a SunSynk inverter."
+version: "1.0.15"
+slug: "sunsynk_data_logger"
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+
+# Features we need
+homeassistant_api: true
+
+# User-customizable options. The user-facing descriptions are in the translations/ folder.
+schema:
+  account_email: str
+  account_password: password
+  entity_solar_power: str?
+  entity_battery_percent: str?
+  entity_battery_power: str?
+  entity_grid_power: str?
+  entity_load_power: str?
+  plant_name: str?
+options:
+  account_email: null
+  account_password: null
+  entity_solar_power: ""
+  entity_battery_percent: ""
+  entity_battery_power: ""
+  entity_grid_power: ""
+  entity_load_power: ""
+  plant_name: ""

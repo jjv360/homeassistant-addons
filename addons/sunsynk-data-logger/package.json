@@ -1,0 +1,13 @@
+{
+    "name": "homeassistant-sunsynk",
+    "version": "1.0.0",
+    "description": "Connection to the Data Logger API",
+    "main": "src/index.js",
+    "private": true,
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node src/index.js"
+    },
+    "author": "jjv360",
+    "license": "ISC"
+}

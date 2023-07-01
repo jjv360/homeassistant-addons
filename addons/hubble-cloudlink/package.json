@@ -1,0 +1,16 @@
+{
+    "name": "homeassistant-hubble-cloudlink",
+    "version": "1.0.0",
+    "description": "Hubble Cloudlink connection to HomeAssistant.",
+    "main": "src/index.js",
+    "private": true,
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node src/index.js"
+    },
+    "author": "jjv360",
+    "license": "ISC",
+    "dependencies": {
+        "ws": "^8.13.0"
+    }
+}

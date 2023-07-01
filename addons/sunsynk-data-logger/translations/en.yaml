@@ -1,0 +1,26 @@
+# Configuration fields
+configuration:
+  account_email:
+    name: SunSync Account Email
+    description: Email address used to log in to the SunSynk portal.
+  account_password:
+    name: SunSync Account Password
+    description: Password used to log in to the SunSynk portal.
+  entity_solar_power:
+    name: Solar Power Entity
+    description: Entity ID of the Number Helper to use for solar power. This is the power in Watts currently being drawn from the solar panels.
+  entity_battery_percent:
+    name: Battery Percent Entity
+    description: Entity ID of the Number Helper to use for battery percent. This is the current battery charge level (SOC) as a percentage.
+  entity_battery_power:
+    name: Battery Power Entity
+    description: Entity ID of the Number Helper to use for battery power. This is the power in Watts currently being drawn from or sent to the battery. A positive number indicates power being drawn from the battery (discharging), a negative number indicates power being sent to the battery (charging).
+  entity_grid_power:
+    name: Grid Power Entity
+    description: Entity ID of the Number Helper to use for grid power. This is the power in Watts currently being drawn from or sent to the grid. A positive number indicates power being drawn from the grid (importing), a negative number indicates power being sent to the grid (exporting).
+  entity_load_power:
+    name: Load Power Entity
+    description: Entity ID of the Number Helper to use for load power. This is the power in Watts currently being used by your home.
+  plant_name:
+    name: Plant Name
+    description: Name of the plant to use. If you have multiple plants, you can specify which one to use here. If you only have one plant, you can leave this blank.
